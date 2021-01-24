@@ -1,0 +1,14 @@
+{
+    "required": true,
+    "package": "user11681.scale.mixin",
+    "compatibilityLevel": "JAVA_8",
+    "mixins": [
+        "GameOptionsMixin",
+        "OptionMixin"
+    ],
+    "client": [
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}
