@@ -13,6 +13,7 @@
     "license": "CC0-1.0",
     "icon": "assets/scale/icon.png",
     "environment": "client",
+<<<<<<< HEAD
     "entrypoints": {
         "client": ["user11681.scale.Scale"],
         "modmenu": ["user11681.scale.Scale"]
@@ -20,4 +21,12 @@
     "mixins": [
         "scale.mixins.json"
     ]
+=======
+    "mixins": [
+        "scale.mixins.json"
+    ],
+    "depends": {
+        "fabricloader": "*"
+    }
+>>>>>>> 978186d (yes)
 }

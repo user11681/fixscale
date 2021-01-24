@@ -8,5 +8,3 @@ pluginManagement {
         maven {url = "https://maven.fabricmc.net"}
     }
 }
-
-include(":testmod")

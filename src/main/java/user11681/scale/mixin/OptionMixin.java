@@ -13,6 +13,7 @@ import user11681.scale.Scale;
 @Environment(EnvType.CLIENT)
 @Mixin(Option.class)
  abstract class OptionMixin {
+    @SuppressWarnings("UnresolvedMixinReference")
     @Inject(method = "method_18548", at = @At("RETURN"))
     private static void fixGuiScale(final GameOptions options, final Integer change, final CallbackInfo info) {
         if (options.guiScale > Scale.instance.maximum) {

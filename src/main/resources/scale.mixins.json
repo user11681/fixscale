@@ -3,7 +3,10 @@
     "package": "user11681.scale.mixin",
     "compatibilityLevel": "JAVA_8",
     "mixins": [
+<<<<<<< HEAD
         "GameOptionsMixin",
+=======
+>>>>>>> 978186d (yes)
         "OptionMixin"
     ],
     "client": [
